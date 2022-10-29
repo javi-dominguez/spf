@@ -11,4 +11,6 @@ gem "rspec", "~> 3.0"
 
 gem "rubocop", "~> 1.7"
 
-gem 'dnslookup', '~> 0.1.5'
+gem "dnsruby", "~> 1.61"
+
+gem "standard", group: [:development, :test]
